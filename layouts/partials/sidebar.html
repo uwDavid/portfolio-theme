@@ -40,7 +40,7 @@
       {{ partial "language-switch" (dict "context" $context "grow" true) }}
       {{ partial "theme-toggle" (dict "hideLabel" true) }}
     {{ else }}
-      <div class="flex grow flex-col">
+      <div class="flex flex-col">
         {{ partial "theme-toggle" }}
       </div>
     {{ end -}}
