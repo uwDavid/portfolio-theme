@@ -53,7 +53,9 @@
         {{- end -}}
       {{- end -}}
     {{- end -}}
-
+    <div class="flex grow flex-col">
+      {{ partial "theme-toggle" }}
+    </div>
 
     <button type="button" aria-label="Menu" class="hamburger-menu -mr-2 rounded p-2 active:bg-gray-400/20 md:hidden">
       {{- partial "utils/icon.html" (dict "name" "hamburger-menu" "attributes" "height=24") -}}
